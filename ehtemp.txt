@@ -1,0 +1,208 @@
+Practical No – 01
+AIM: Use Google and Whois for Reconnaissance
+	Steps to perform reconnaissance
+Website 1
+Step1: Open google website and search for “Whois tool” and here is its interface
+ 
+
+Step2: Now search for “ckt college website” in google and copy its URL
+ 
+
+Step3: Paste that URL in the Whois  search bar and search
+Step4: Click on the “Whois” tab 
+ 
+
+Step5: Click on the “DNS Records” tab
+ 
+
+Step6: Click on the “Diagnostics” tab
+
+Step7: Validate the captcha it will give reply
+ 
+
+Website 2
+Step1: Again visit to Whois website and search for “youtube” in google and copy its URL
+Step2: Paste that URL in the Whois  search bar and search  click on the “Whois” tab 
+ 
+
+Step3: Click on the “DNS Records” tab
+ 
+
+Step4: Click on the “Diagnostics” tab
+Step5: Validate the captcha it will give reply
+
+
+
+Practical No – 02
+AIM: A] Use CrypTool  to encrypt and decrypt passwords using RC4 algorithm.
+STEPS
+Step1: Open the “CrypTool  1.4.41” app
+Step2: Click on “File ”  “New” 
+ 
+
+Step3: Type your name that you want to encrypt
+ 
+
+Step4: Click on “Encrypt/Decrypt”  “Symmetric(modern)”   “RC4” ”  “Encrypt” 
+ 
+
+ 
+
+The encrypted text will display 
+ 
+
+Step5: The same text now we will decrypt it by 
+             Click on “Encrypt/Decrypt”  “Symmetric(modern)”   “RC4” ”  “Decrypt”
+
+The decrypted text will display 
+ 
+
+
+Practcal No. 5
+
+Aim :  Use WireShark sniffer to capture network traffic and analyze.
+
+Step 1: Install and open WireShark .
+Step 2: select Ethernet and start .
+
+ 
+
+Step 3 : go to any browser search any demo site like the (http://testphp.vulnweb.com/login.php)
+Step 4 : Enter the username and password in given textboxes
+
+ 
+
+Step 5: in wireshark search the http.
+
+Step 6 : find the /userinfo.php url in give http links.
+
+ 
+
+Step 7 : Entered username and password and fetch in the console.
+
+Output:
+
+
+
+Practical.No.4
+
+Aim: Use NMap scanner to perform port scanning of various form – ACK, SYN, FIN, NULL, XMAS.
+
+1)ACK-sA(TCP ACK Scan):
+
+Command: nmap -sA -T4 scanme.nmap.org
+
+2)SYN Scan:
+
+Command: nmap -p 22,113,139 scanme.nmap.org
+
+3)FIN Scan
+
+Command: nmap -sF -T4 scanme.nmap.org
+
+4)NULL Scan
+
+Command: nmap -sN -p 22 scanme.nmap.org
+
+5)XMAS Scan
+
+Command: nmap -sX -T4 scanme.nmap.org
+
+ 
+ 
+
+Practical No. 03
+B Perform ARP Poisoning in Windows →
+1.	Download & Install “Win10Pcap” & “Cain & Abel” →
+ Win10Pcap - 🔗 https://www.win10pcap.org/download/ )
+ Cain & Abel - 🔗 http://www.oxid.it/cain.html )
+2.	Open “Cain & Abel” → Click “Configure” Make Changes According to the ScreenShot → “Apply” →
+ 
+ 
+4. “Mac Address Scanner” Window 	 Select Target According to your
+Network, Here we’ll be looking for 2 Hosts Specifically 	 Check “All Test”
+CHECKBOX  	Click on “OK” Shortly after Scanning, All HOST will be shown →
+ 
+ 
+6.	Toggle “Start/Stop APR” To Change STATUS from “IDLE” To “Poisoning”→
+7.	From Both HOST “ping” each Other → After Check The APR Activity →
+HOST 1 	 “172.16.0.130” )
+ 
+ 
+8.	NOW, Switch TAB “Passwords” → Select “HTTP” from LEFT WINDOW → Visit any Not Secure (*http) Login Site and Login with dummy data.
+(eg.🔗- http://testphp.vulnweb.com/login.php )
+(http://demo.t3-framework.org/joomla30/index.php/en/joomla-pages/samplepage-2/login-page ) →
+ 
+ 
+9.	Go Back to the Software Check for the Records →
+ 
+6
+
+
+Practical No. 02
+B Use Cain & Abel for Cracking Passwords using Dictionary Attack & Brute Force Attack →
+1.	Download & Install “Win10Pcap” & “Cain & Abel” →
+ Win10Pcap - 🔗 https://www.win10pcap.org/download/ )  Cain & Abel - 🔗 http://www.oxid.it/cain.html )
+2.	Open “Cain & Abel” & Select “Hash Calculator” →
+ 
+ 
+  Select “MD5 Hashes” from LEFT WINDOW 
+1.	Right Click on the Value & Select the “Dictionary Attack” →
+2.	Add “WordList.txt” File OR WordList for the Attack →
+WordList.txt  → 🔗 shorturl.at/mvz69)
+ 
+  Brute-Force Attack ⟶
+1. Right Click on the Value & Select the “Brute-Force Attack” →
+ 
+
+
+
+Practical No. 08
+AIM - Perform SQL Injection Attack.
+REQUIRED -
+●	XAMPP       (🔗 https://sourceforge.net/projects/xampp/ )
+●	DVWA Zip  (🔗 shorturl.at/hptDU )
+STEPS -
+1	Open XAMPP Control Panel & Start Apache, MySQL Server.
+ 
+2	Open Any Browser & Paste Link in the Address Bar, To Check the Working “http://localhost/dashboard/” →
+ 
+3	Go to “DVWA\config\config.php.dist” & Rename File To “config.php” →
+ 
+4	Open the File with Notepad →
+ 
+5	Now, Make Changes according to the $_DVW ‘db_user’]=”root” ;
+$_DVW ‘db_password’] = “ ” ;   →  CTRL  S
+ 
+6	Go to Xampp Folder 	 Paste DVWA Folder →
+ 
+7	Now, Try running the “setup.php” file of DVWA by Any Favorite Browser
+“localhost/phpmyadmin/DVWA/setup.php” → “Create / Reset Database”.
+ 
+8	Now, Set the Security as “LOW” in DVWA Security Section 	 Submit.
+ 
+ 
+ 
+10	User ID 	a ‘ or ‘  ‘=’ ⟶
+ 
+11 User ID ⟶ “1*” & “1  1” & “1#”   ⟶
+
+
+
+Practical No. 09
+AIM - Create a Simple KeyLogger using Python. 🐍
+1. Open Command Prompt, Install pynput using “pip install pynput”⟶
+ 
+ 
+3. Go to “\Desktop\EH” → Create 2 Files as ”keylog.py” & “key_log.txt” →
+ 
+4. Python Code (keylog.py) →
+ 
+5. RUN ”keylog.py” → Windows Defender may detect the program as
+VIRUS, “Action Options: Allow on device” →
+6. RUN ”keylog.py” → Type Random Keys → CHECK “key_log.txt” →
+ 
+
+
+
+
